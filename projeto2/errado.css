@@ -1,0 +1,42 @@
+#frase{
+    padding:10px;
+}
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+}
+#botao{
+    background: rgb(6, 211, 6);
+    width:100px;
+    height: 20px;
+    text-align: center;
+    border-style: double;
+
+    cursor: pointer;
+
+    
+    position: absolute;
+    top: 180px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+#foto{
+    position:absolute;
+    margin: auto;
+    left:0px;
+    top: 10px;
+
+}
+#foto2{
+    position:absolute;
+    margin: auto;
+    right:0px;
+    top: 10px;
+}

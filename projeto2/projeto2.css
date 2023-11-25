@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+    padding: 20px;
+    border-style: dashed;
+    margin: auto;
+    background: white;
+
+}
+div#verificar{
+    align-content: center;
+    
+    width: 50px;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    margin: auto;
+
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+body{
+    background: rgb(0, 175, 0);
+}

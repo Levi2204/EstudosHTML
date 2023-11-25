@@ -1,0 +1,27 @@
+#letra{
+ text-align: center;
+}
+header{
+    text-align: center;
+    background: rgb(1, 209, 1);
+    padding: 0px;
+}
+body{
+    position: relative;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+#foto{
+    margin: auto;
+    position: absolute;
+    top: 120px;
+}
+
+#video{
+    margin:auto;
+    position:absolute;
+    top:120px;
+    right: 0px;
+}

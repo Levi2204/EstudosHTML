@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letras</title>
+
+    <link rel="stylesheet" href="stylesite2.css">
+</head>
+
+<body>
+
+
+    <div class="Buscar">
+        <input type="text" placeholder="Buscar música"><br>
+    </div>
+
+    <div class="letras">
+        <h1>LETRAS</h1>
+    </div>
+
+    <div id="buscar" onclick="clicar()" onmouseenter="entrar1()" onmouseleave="sair1()">
+        <h4>Buscar</h4>
+
+    </div>
+        <script>
+            var b = window.document.getElementById("buscar")
+            function clicar(){
+                window.location = "site2inicio.html"
+            }
+
+            function entrar1(){
+                b.style.background = "rgb(251, 251, 16)"
+            }
+
+            function sair1(){
+                b.style.background = "rgb(219, 219, 0)"
+            }
+        </script>
+</body>
+</html>

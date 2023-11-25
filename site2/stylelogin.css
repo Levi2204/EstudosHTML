@@ -1,0 +1,80 @@
+.painel{
+    background: white ;
+    height: 300px;
+    width:270px;
+
+    border-radius: 10px;
+
+    position:absolute;
+    top: 240px;
+    left:600px;
+
+    border-style:groove;
+}
+
+.login{
+    position: absolute;
+    top:300px;
+    left:650px;
+
+    z-index: 3;
+}
+
+div#botao{
+    background: rgb(219, 219, 0);
+    height: 30px;
+    width: 100px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top:470px;
+    left:680px;
+
+    cursor:default;
+}
+
+.letra{
+    background: rgb(219, 219, 0) ;
+    color: black;
+    height: 70px;
+    width:272px;
+
+    border-radius: 10px;
+
+    position: relative;
+    top:220px;
+    left:593px;
+
+    text-align: center;
+
+    z-index: 2;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+.coluna1{
+    background: rgb(219, 219, 0);
+
+    position:relative;
+    top:-100px;
+    left:-10px;
+
+    height: 735px;
+    width:400px;
+}
+
+.coluna2{
+    background: rgb(219, 219, 0);
+
+    position: relative;
+    top:-825px;
+    left:1050px;
+
+    height: 735px;
+    width: 400px;
+}

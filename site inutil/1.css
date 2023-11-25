@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+  }
+  
+  /* Estilos para dispositivos com largura de tela menor que 600px */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+
+  @media screen and (max-width: 1600px){
+    .inutil{
+        top:183px;
+        left: 670px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .botao{
+        top:440px;
+        right: 715px;
+    }
+}
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(250, 125, 0);
+
+    position: relative;
+    top:100px;
+    left: 200px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:;
+
+    position: relative;
+    top:100px;
+    left: 200px;

@@ -1,0 +1,100 @@
+
+
+.fabiojr{
+    color:rgb(219, 219, 0);
+
+    position: absolute;
+
+    top:230px;
+    left:220px;
+}
+
+.letra{
+    color:black;
+    font-family:Arial;
+
+    position: absolute;
+    top: 270px;
+    left: 220px;
+}
+
+.video{
+    position: relative;
+    left:800px;
+    top:200px;
+}
+
+.barra{
+    background:rgb(251, 251, 16) ;
+    height: 60px;
+    width: 1458px;
+
+
+    position: absolute;
+    top:0px;
+    left:0px;
+
+    z-index: 1;
+}
+
+.letra2{
+    color: white;
+    position: absolute;
+    top:0px;
+    left:250px;
+
+    z-index: 3;
+}
+
+.musica{
+    color: rgb(255, 68, 0);
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+
+div#entrar{
+    position: absolute;
+    top:2px;
+    right: 220px;
+
+    background: rgb(251, 251, 16);
+
+    color: white;
+    height: 50px;
+    width:60px;
+
+    text-align:center;
+
+    border-radius: 10px;
+
+    cursor:default;
+
+    z-index: 3;
+}
+
+div#buscar{
+    background:rgb(251, 251, 16);
+    color:white;
+    height: 50px;
+    width:50px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 5px;
+    right:580px;
+
+    cursor:default;
+   z-index: 3;
+}
+
+.pesquisa{
+    position: absolute;
+    top: 24px;
+    right:650px;
+   z-index: 3;
+}
+
